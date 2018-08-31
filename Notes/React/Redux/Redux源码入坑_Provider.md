@@ -1,6 +1,6 @@
 # Provider
 
-react-redux 有两个核心概念， Provider和connect. Provider代码比较少，主要是应用了React的context api，用来给react组件提供数据，数据存放在context的store中。
+react-redux 有两个核心概念， Provider和connect. Provider代码比较少，主要是应用了React的context api，用来给react组件提供数据。
 
 ```
 export function createProvider(storeKey = 'store') {
@@ -40,6 +40,7 @@ export function createProvider(storeKey = 'store') {
 
     return Provider
 }
+export default createProvider(); // 通常使用的Provider组件
 ```
 
 1. 把传入的sotre保存在this[storeKey], 在getChildContext中返回store的值
