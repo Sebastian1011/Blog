@@ -41,3 +41,9 @@ export function createProvider(storeKey = 'store') {
     return Provider
 }
 ```
+
+1. 把传入的sotre保存在this[storeKey], 在getChildContext中返回store的值
+2. provider不支持sotre修改，第一次改变会警告，再次修改就退出
+   
+getChildContext是react context相关api：react中要使用context，需要一个父组件和至少一个子组件（redux中使用Children.only检查是否是单个子节点，所以redux只支持单个节点），
+父组件中，必须通过一个静态属性childContextTypes声明提供给子组件的Context对象的属性，并实现一个实例getChildContext方法，返回一个代表Context的纯对象 (plain object) 。redux就是使用context把store通过provider传递给所有子组件。
