@@ -7,14 +7,14 @@
 * [Notes](./Notes)
     * Javascript
     * [React](./Notes/React/React.md)
-        * [Redux](./Notes/React/Redux)
+        * [Redux](./Notes/React/Redux/Redux.md)
     * Python
     * Java
     * Unit Test
     * Swift
     * Security
 * Tools
-* Just For Fun
+* Just_For_Fun
 * Docs
 * Books
 

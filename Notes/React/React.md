@@ -1,3 +1,3 @@
 # React
 
-* (Redux)[./Redux]
+* [Redux](./Redux)
