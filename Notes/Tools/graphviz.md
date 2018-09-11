@@ -31,7 +31,7 @@
 * 支持自定义节点之间连线的样式 `a->b [color=red, style=dashed, dir=both, arrowhead=diamond, label="go", headlabel="head", taillabel="tail"]
 * 连线颜色支持多颜色分段 `color="red:green;0.4:blue"`，支持同段多色 `color="red:green`
 
-[具体的shape，color，attribute请查看用户手册](./dotguide.pdf)
+[具体的shape，color，attribute请查看用户手册](./../../assets/docs/dotguide.pdf)
 
 ### dot基本语法demo
 
