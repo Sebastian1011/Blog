@@ -4,9 +4,9 @@
 > 能够实现最小复杂关系连线布局，但是无法实现自定义固定布局
 
 
-* dot语言基本知识
-* dot基本语法demo
-* graphviz命令
+* [dot语言基本知识](#dot基本知识)
+* [dot基本语法demo](#dot基本语法demo)
+* [graphviz命令](#命令行)
 
 
 
