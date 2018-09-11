@@ -16,6 +16,7 @@
     * Swift
     * Security
 * Tools
+    * [Graphviz](./Notes/Tools/graphviz.md)
 * Just_For_Fun
 * Docs
 * Books
