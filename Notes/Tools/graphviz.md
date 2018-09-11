@@ -54,7 +54,7 @@
     }
 ```
 
-[结果如图](./graphviz/digraph.svg)
+![结果如图](./graphviz/digraph.svg)
 
 
 ### 命令行
