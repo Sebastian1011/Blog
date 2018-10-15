@@ -1,4 +1,4 @@
 # Redux
 
-* [Redux源码入坑_Provider](./Redux源码入坑_Provider.md)
-* [Redux源码入坑_connect](./Redux源码入坑_connect.md)
+* [Redux源码_Provider](./Redux源码_Provider.md)
+* [Redux源码_connect](./Redux源码_connect.md)
