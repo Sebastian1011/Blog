@@ -1,0 +1,21 @@
+digraph oauth {
+    rankdir=LR
+    node[shape=box, width=1, height=1];
+    {
+        rankdir=TB
+        nodeC [height= 4, shape=box, label="client"]
+    }
+    { 
+        rank=same
+        nodeRO [height=1, label="Resource\l Owner\l"]
+        nodeA [height=1, label="Authorization\lServer\l"]
+        nodeR [height=1, label="Resource\lServer\l"]
+    }
+
+    nodeC -> nodeRO [label="(A) Authorization Request"]
+    nodeRO -> nodeC [label="(B) Authorization Grant"]
+    nodeC -> nodeA [label="(C) Authorization Grant"]
+    nodeA -> nodeC [label="(D) Access Token"]
+    nodeC -> nodeR [label="(E) Access Token"]
+    nodeR -> nodeC [label="(F) Protected Resource"]
+}
