@@ -32,6 +32,8 @@
 * 连线颜色支持多颜色分段 `color="red:green;0.4:blue"`，支持同段多色 `color="red:green`
 * 支持image 属性插入图片
 
+[详细的语法介绍请参考文档](http://graphs.grevian.org/reference)
+
 
 [具体的shape，color，attribute请查看用户手册](./../../assets/docs/dotguide.pdf)
 
