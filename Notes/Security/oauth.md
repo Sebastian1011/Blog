@@ -44,5 +44,36 @@ Authorization Grant 是用来代表用户的授权的凭证，分为四种类型
 4. Client credentials: 客户端模式
 
 
+### 授权码模式
+* 客户端将用户的请求导向认证服务器
+* 用户选择是否给予权限
+* 如果授权，认证服务将用户重定向到客户端指定的重定向url，同时附上授权码
+* 客户端的后台用授权码和资源服务的重定向url，向认证服务器请求
+* 认证服务核对授权码和重定向url之后返回access token
 
+### 简化模式
+相比授权码模式简化，直接在user-agent中向认证服务申请授权，跳过授权码过程，
+令牌对访问者可见，刻度段不需要认证
 
+###　密码模式
+用户密码直接作为授权凭证，经由客户端发送给认证服务器，认证服务器返回access token，
+必须保证客户端不保存密码
+
+### 客户端模式
+客户端使用自己的凭证获取权限访问受保护的资源，实质是用户直接向客户端进行注册，并不
+
+### access token
+token是用来获取受保护资源的证书：
+* clientId: 客户端ID
+* userId: 用户ID
+* scope: 权限范围
+* issueTime: 下发时间
+* tokenType: token的类型
+
+两种类型：
+* bearer token: 包含简单的字符串
+* mac token: 消息授权码+token
+
+### refresh token
+refresh token 用来在当前token过期的时候获取access token
+refresh token 对客户端不透明
