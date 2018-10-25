@@ -1,6 +1,6 @@
 # JWT 
 
-JWT 全称：Json Web Token，是一个非常轻量的规范，用于在client 和 server之间安全的传递信息
+JWT全称：Json Web Token，是一个非常轻量的规范，用于在client 和 server之间安全的传递信息
 
 JWT 由三部分组成，三者之间使用`.`号进行连接：
 
@@ -21,7 +21,7 @@ JWT 由三部分组成，三者之间使用`.`号进行连接：
 
 client和server传递信息的json, 使用base64编码，JWT标准规定了5个必填字段：
 
-* iss: 该JWT的签发者
+* iss: 该JWT的签发者
 * sub: 该JWT所面向的用户
 * aud: 接收该JWT的一方
 * exp(expires): 过期时间
