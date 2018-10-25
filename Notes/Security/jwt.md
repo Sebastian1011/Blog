@@ -1,8 +1,8 @@
 # JWT 
 
-JWT 全称：Json Web Token，是一个非常轻量的规范，用于在client 和 server之间安全的传递信息
+JWT 全称：Json Web Token，是一个非常轻量的规范，用于在client 和 server之间安全的传递信息
 
-JWT 由三部分组成，三者之间使用`.`号进行连接：
+JWT 由三部分组成，三者之间使用`.`号进行连接：
 
 * Header
 * Payload
