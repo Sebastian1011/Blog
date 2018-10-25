@@ -1,0 +1,17 @@
+digraph {
+    rankdir=LR
+    node[shap=record]
+
+    {
+        rank=same
+        Header;
+        Payload;
+    }
+
+    Signature
+
+    d1 [shape=point, width=0.01, height=0.01];
+
+    {Header, Payload} -> d1 [dir=none]
+    d1 -> Signature [label="HS256 encryption"]
+}
