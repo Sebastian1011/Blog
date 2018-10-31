@@ -23,6 +23,7 @@
     * Dart
 * Tools
     * [Graphviz](./Notes/Tools/graphviz.md)
+    * [Docker](./Notes/Tools/docker/docker.md)
 * Just_For_Fun
 * Docs
 * Books
