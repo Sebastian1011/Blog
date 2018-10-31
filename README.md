@@ -24,6 +24,8 @@
 * Tools
     * [Graphviz](./Notes/Tools/graphviz.md)
     * [Docker](./Notes/Tools/docker/docker.md)
+        * [deploy private registry](./Notes/Tools/docker/docker_private_registry.md)
+        * [run gui in docker container](./Notes/Tools/docker/run_gui_in_docker.md)
 * Just_For_Fun
 * Docs
 * Books
