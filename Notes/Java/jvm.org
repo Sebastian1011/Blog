@@ -6,6 +6,8 @@
 **** 程序计数器
      存储程序字节码执行位置，读取下一条字节码指令，唯一一个没有规定OutOfMemory异常的区域
 **** java 虚拟机栈
-     每个方法执行时创建，存储：局部变量，操作数栈， 动态连接，方法出口等信息；虚拟机栈的生命周期对应线程的生命周期，
+     每个方法执行时创建，存储：局部变量，操作数栈， 动态连接，方法出口等信息；
+     虚拟机栈的生命周期对应线程的生命周期
      每个
+asddfasf12e1234123451235125j1ljkl jlkrjklj klwjfklajs klfjaklsdjfklafj32 kljkf jklsjfka jffkljaklsdjflaksjdfajsdklfjakls;dfjqklj3 fkl2j3kl jkljklsdjfkla jdkl
 
