@@ -10,3 +10,4 @@
      虚拟机栈的生命周期对应线程的生命周期
      每个
 klajs;dldfjkas;ldkfjakl;sdjfkl;ajsdfkl;;jakl;sdjfkl;ajskl;dfjakl;sjdfkl;ajsdkl;fjakl;jsdkl;fjakl;sjdfklajkls;djfkl;a;jsdfkl;jakls;dfjakl;sdjfkla
+
