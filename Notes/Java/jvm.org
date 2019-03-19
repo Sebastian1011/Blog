@@ -14,5 +14,6 @@
      法的局部变量操作数等），而本地方法栈是为native方法服务的。 本地方法栈和虚拟
      机栈一样，都是有StackOverflowError 和 OutOfMemoryError
 *** 线程间共享的数据区
-**** 
-
+**** java 堆
+     
+**** 方法区
