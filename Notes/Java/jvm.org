@@ -15,5 +15,5 @@
      机栈一样，都是有StackOverflowError 和 OutOfMemoryError
 *** 线程间共享的数据区
 **** java 堆
-     
+     java 堆是虚拟机管理的最大一块内存，
 **** 方法区
