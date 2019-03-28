@@ -3,4 +3,5 @@
 ** Encrypt
    emacs 24之后默认集成了EasyPG，可以调用本地的GPG软件，实现对文件的对称和非对称
    加密。首先需要在本地安装[[https://gnupg.org/download/][GnuGP ]], 然后修改Emacs 配置文件，添加
-   ~(require 'epa-file)~ , 
+   ~(require 'epa-file)~ 来激活Emacs EasyPG。然后将本地需要加密的文件的后缀名修
+   改为.gpg 就可以自动调用gpg软件进行加密。
