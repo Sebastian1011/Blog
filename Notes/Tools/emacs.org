@@ -1,4 +1,5 @@
 * Emacs 使用记录
 
 ** Encrypt
-   emacs 24之后默认集成了EasyPG，可以调用本地的GPG软件，实现对
+   emacs 24之后默认集成了EasyPG，可以调用本地的GPG软件，实现对文件的对称和非对称
+   加密。首先需要在本地安装
