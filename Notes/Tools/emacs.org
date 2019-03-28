@@ -1,4 +1,4 @@
 * Emacs 使用记录
 
 ** Encrypt
-   emacs 24之后默认
+   emacs 24之后默认集成了EasyPG，可以调用本地的GPG软件，实现对
