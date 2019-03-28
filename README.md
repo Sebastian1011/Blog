@@ -25,7 +25,7 @@
   - Network
 	- [Airplay](./Notes/Network/Airplay.org)
   - Common
-	- [serialize deserialize](
+	- [serialize deserialize](./Notes/Common/serialize.org)
 - Tools
   - [Graphviz](./Notes/Tools/graphviz.md)
   - [Docker](./Notes/Tools/docker/docker.md)
