@@ -1,8 +1,8 @@
 theme: jekyll-theme-cayman
 # Site 这里的配置，哪项配置反映在哪里，可以参考我的博客
 title: Geek and Chef #站点名，站点左上角
-subtitle: personal blog, 非常规程序员
-description: personal blog, 非常规程序员
+subtitle: personal blog, 非典型程序员
+description: personal blog, 非典型程序员
 author: 舟自横
 # email: #你的联系邮箱
 # language: zh-CN #中国人嘛，用中文
