@@ -6,18 +6,18 @@ locale      : "en-US"
 title       : "Geek and Chef"
 # 站点副标题
 description : "非典型程序员"
+url         : https://blog.geekandchef.com
 # name
 name        : "舟自横"
 # author 相关
 author      : 
   name      : "舟自横"
 # email: #你的联系邮箱
-# language: zh-CN #中国人嘛，用中文
 
 # URL #这项暂不配置，绑定域名后，欲创建sitemap.xml需要配置该项
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 # url: http://zipperary.com
-root: /
+
 # permalink: :year/:month/:day/:title/
 # tag_dir: tags
 # archive_dir: archives
