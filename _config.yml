@@ -8,7 +8,9 @@ title       : "Geek and Chef"
 description : "非典型程序员"
 # name
 name        : "舟自横"
-author: 舟自横
+# author 相关
+author      : 
+  name      : "舟自横"
 # email: #你的联系邮箱
 # language: zh-CN #中国人嘛，用中文
 
