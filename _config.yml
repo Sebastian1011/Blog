@@ -1,54 +1,55 @@
-# 站点主题配置
-theme       : jekyll-theme-cayman
-# Site 配置
-locale      : "en-US"
-#站点名，站点左上角
-title       : "Geek and Chef"
-# 站点副标题
-description : "非典型程序员"
-url         : https://blog.geekandchef.com
-read_more   : "disabled"
-# name
-name        : "舟自横"
-# author 相关
-author      : 
-  name      : "舟自横"
-# email: #你的联系邮箱
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# URL #这项暂不配置，绑定域名后，欲创建sitemap.xml需要配置该项
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-# url: http://zipperary.com
+title: Geek and Chef
+email: zzmbpt@163.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
-# permalink: :year/:month/:day/:title/
-# tag_dir: tags
-# archive_dir: archives
-# category_dir: categories
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
 
-# Writing 文章布局、写作格式的定义，不修改
-#new_post_name: :title.md # File name of new posts
-#default_layout: post
-#auto_spacing: false # Add spaces between asian characters and western characters
-#titlecase: false # Transform title into titlecase
-#max_open_file: 100
-#filename_case: 0
-#highlight:
-  #enable: true
-  #backtick_code_block: true
-  #line_number: true
-  #tab_replace:
-
-# Category & Tag
-# default_category: uncategorized
-# category_map:
-# tag_map:
-
-# Archives 默认值为2，这里都修改为1，相应页面就只会列出标题，而非全文
-## 2: Enable pagination
-## 1: Disable pagination
-## 0: Fully Disable
-# archive: 1
-# category: 1
-# tag: 1
-
-# encoding
-encoding: "utf-8"
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
