@@ -3,3 +3,6 @@ description: Personal blog，非典型程序员
 show_downloads: true
 google_analytics:
 theme: geek-and-chef
+
+plugins:
+  - jekyll-seo-tag
