@@ -4,5 +4,8 @@ show_downloads: true
 google_analytics:
 theme: geek-and-chef
 
+timezone: Asia/Shanghai
+encoding: utf-8
+
 plugins:
   - jekyll-seo-tag

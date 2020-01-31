@@ -41,6 +41,10 @@
 
 A developer. Point out mistakes so that they can be corrected
 
+# theme
+
+基于[cayman](https://github.com/pages-themes/cayman) 主题修改而来
+
 # License
 
 MIT License
